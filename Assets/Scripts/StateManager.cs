@@ -11,6 +11,12 @@ public class StateManager : MonoBehaviour
     [SerializeField] Text[] achDescrip;
     [SerializeField] Image[] achLogo;
     [SerializeField] Achievement[] allAchievements;
+    [SerializeField] Text[] SKtit;
+    [SerializeField] Text[] SKdesc;
+    [SerializeField] Image[] SKimg;
+    [SerializeField] Achievement[] specialAchs;
+
+
 
     public State[] GetAllStates()
     {
@@ -40,7 +46,8 @@ public class StateManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //bool finishedGame = true;
+        bool finishedGame = true;
+        bool finishedGametwice = true;
 
         PlayerPrefs.SetInt("ach01", checkStates[0].visited);
         PlayerPrefs.SetInt("ach02", checkStates[1].visited);
@@ -52,19 +59,56 @@ public class StateManager : MonoBehaviour
         }
     
 
-        foreach (State a in allStates)
+        foreach (State a in checkStates)
         {
             if (a.TimesVisited() <= 0)
             {
-                //finishedGame = false;
+                finishedGame = false;
             }
         }
 
-        /*if (finishedGame)
+        foreach (State a in checkStates)
         {
-           win.text = "You finished the whole game!";
+            if (a.TimesVisited() <= 1)
+            {
+                finishedGametwice = false;
+            }
         }
-        */
+
+        if (finishedGame)
+        {
+            PlayerPrefs.SetInt("Win1", 1);
+        }
+
+        if (finishedGametwice)
+        {
+            PlayerPrefs.SetInt("Win2", 1);
+        }
+
+        if (PlayerPrefs.GetInt("Win1") == 1)
+        {
+            SKtit[0].text = specialAchs[0].GetAchievementName();
+            SKdesc[0].text = specialAchs[0].GetAchievementDescription();
+            SKimg[0].sprite = specialAchs[0].GetIcon();
+        } else
+        {
+            SKtit[0].text = "Locked";
+            SKdesc[0].text = "Continue playing game to unlock";
+        }
+
+        if (PlayerPrefs.GetInt("Win2") == 1)
+        {
+            SKtit[1].text = specialAchs[1].GetAchievementName();
+            SKdesc[1].text = specialAchs[1].GetAchievementDescription();
+            SKimg[1].sprite = specialAchs[1].GetIcon();
+        }
+        else
+        {
+            SKtit[1].text = "Locked";
+            SKdesc[1].text = "Continue playing game to unlock";
+        }
+
+
     }
-  
+
 }

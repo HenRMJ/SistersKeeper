@@ -13,7 +13,6 @@ public class AdventureGame : MonoBehaviour
     [SerializeField] Text optionOne;
     [SerializeField] Text optionTwo;
     [SerializeField] Text optionThree;
-    [SerializeField] Text win;
     [SerializeField] State[] allStates;
 
 
@@ -159,7 +158,8 @@ public class AdventureGame : MonoBehaviour
         foreach (State a in allStates)
                 a.setTimesVisited(-1);
 
-        win.text = "";
+        PlayerPrefs.SetInt("Win1", 0);
+        PlayerPrefs.SetInt("Win2", 0);
     }
 
     public void MuteVoice()
