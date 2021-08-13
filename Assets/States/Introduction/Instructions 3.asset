@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Instructions 3
+  m_EditorClassIdentifier: 
+  storyText: "Hahaha nice! \n\nAs you can see I don\u2019t really know what you picked.
+    But that\u2019s not the case in the game.\n\nThroughout your playthrough you
+    will make decisions that will drastically impact the story.\n\nSpeaking of...
+    Let me tell you about the story. Are you ready?"
+  optionOne: "\u201CYes! let\u2019s go!\u201D"
+  optionTwo: "\u201CNo\u201D"
+  optionThree: "\u201CSure\u201D"
+  voice: {fileID: 8300000, guid: 81a40521957e1d34c9f05203b8e8fcc2, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 45e4a13a24390ed4a942b0499c96beda, type: 2}
+  - {fileID: 11400000, guid: 06b077e7c17253a438b93309f5997260, type: 2}
+  - {fileID: 11400000, guid: 7446507ce8270cc4d8101aee120768eb, type: 2}
+  visited: 0
+  checkpoint: 0

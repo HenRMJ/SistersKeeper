@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf0dc4dfe48dc14a9f7c79b7d3a6213, type: 3}
+  m_Name: The longest path
+  m_EditorClassIdentifier: 
+  achievementName: The longerst path
+  description: Completed the longest story path
+  icon: {fileID: 21300000, guid: 5b6f1e98d4bb4a94e97220d37fdbf11b, type: 3}

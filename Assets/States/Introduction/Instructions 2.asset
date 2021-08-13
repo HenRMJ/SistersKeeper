@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Instructions 2
+  m_EditorClassIdentifier: 
+  storyText: 'WOW! GREAT!
+
+
+    ... sorry is that patronizing?'
+  optionOne: "\u201CYes, fuck you\u201D"
+  optionTwo: "\u201CNo, it\u2019s fine\u201D"
+  optionThree: "\u201CYou\u2019re doing \u2018great\u2019\u201D"
+  voice: {fileID: 8300000, guid: ba42cb4b60af2e44d86c24b44402043c, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: a5052e3af34da8c42b60a098fa65e846, type: 2}
+  - {fileID: 11400000, guid: a5052e3af34da8c42b60a098fa65e846, type: 2}
+  - {fileID: 11400000, guid: a5052e3af34da8c42b60a098fa65e846, type: 2}
+  visited: 1
+  checkpoint: 0

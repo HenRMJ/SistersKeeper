@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Instructions 4a
+  m_EditorClassIdentifier: 
+  storyText: "Great! I\u2019m glad you\u2019re excited as I am!\n\nOh one more thing
+    I forgot to mention. At any point in the game you can press \u201CQ\u201D to
+    quit the game. Yes even right now. But, if you do you\u2019ll lose all your progress.
+    I\u2019m a new game dev so I haven\u2019t figured out how to save yet.\n\nOk!
+    That\u2019s everything for real this time. Let me know when you\u2019re ready!"
+  optionOne: "\u201CI\u2019m ready!\u201D"
+  optionTwo: Repeat voice over
+  optionThree: Back
+  voice: {fileID: 8300000, guid: ba42e30fb86d8114ab2380bf0de64e99, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: c1d08bae823b6e942ae8434c5012aa4d, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: a5052e3af34da8c42b60a098fa65e846, type: 2}
+  visited: 0
+  checkpoint: 0
