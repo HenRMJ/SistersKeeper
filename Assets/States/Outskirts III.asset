@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Outskirts III
+  m_EditorClassIdentifier: 
+  storyText: "The person standing in front of you is a child, that much you can tell,
+    even if they are almost as tall as you. Probably around five foot, six inches,
+    if you had to guess. Two protrusions on their neck start moving a bit like fish
+    fins as they open their mouth, letting out a series of low pitched noises. They
+    don\u2019t seem to be scared of you, and you realize this is probably the only
+    chance you\u2019ll get to callibrate your translator. You pull it out, along
+    with the callibration device. The alien standing across from you watches curiously
+    before seemingly realizing what it is and sits down, crossing its legs, much
+    like a human child. You mirror their actions and sit as well, straping the mask
+    like translator to your face and inserting the earbuds attached to it."
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 35a590a9ce39d494895beadc5b85cb17, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

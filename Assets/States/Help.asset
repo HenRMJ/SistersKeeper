@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Help
+  m_EditorClassIdentifier: 
+  storyText: "You finally pull yourself up, using the wall as a stabilizer, making
+    your way to the captain. Despite him being an ass earlier, you were still going
+    to be the better person. \u201CP-please!! Pull me out!\u201D The captain extends
+    the arm that\u2019s still intact as you approach. You grab onto it tightly and
+    start dragging him with as much strength as you can muster. The fire starts to
+    catch up to you as you do, and you try to move faster, but it reaches the captain\u2019s
+    clothes and sets them ablaze. He starts convulsing and twisting in an attempt
+    to put it out, his breathing starting to get more laboured before he falls limp,
+    his grasp on you loosening. The room was starting to smell a bit like coppery
+    beef.....or was it pork? It didn\u2019t smell good either way."
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 7f85f57345ff4dc459479265ff81c458, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

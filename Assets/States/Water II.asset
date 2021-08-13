@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Water II
+  m_EditorClassIdentifier: 
+  storyText: "You try to brace yourself too late, and the force of your body colliding
+    with the water is comparable to landing full force on concrete. You attempt to
+    yell as you slowly sink under, but the only thing you accomplish is flooding
+    your lungs with water. You feel trapped by the warm water surrounding you, and
+    the spinning is still affecting you. You aren\u2019t sure which way is up. You
+    try your best not to panic, and after what feels like hours, your sinking from
+    the impact finally slows. It feels like you\u2019re simply drifting slowly through
+    the water as you finally are able to make your way up towards the surface, swimming
+    as fast as you possibly can. You feel your lungs burning from how long you\u2019ve
+    been holding your breath, panting heavily as you surface."
+  optionOne: Swim to the shore
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 0724fd5f893c4f34587f1f9fee4caff9, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

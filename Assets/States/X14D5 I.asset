@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: X14D5 I
+  m_EditorClassIdentifier: 
+  storyText: "X14D5 is an unexplored planet close to Krestar\u2019s sun, right on
+    the edge of the Goldilocks Zone. It\u2019s just close enough to this edge that
+    the planet is only a few degrees away from being uninhabitable. You know how
+    brutal the environment of this planet could be, but maybe that\u2019s why Langly
+    Corp kept the mission a hush hush. It could be bad for them if it got out they
+    were putting their workers in such dangerous situations for their own profit
+    without a second thought to the consequences. It\u2019s possible she could be
+    there. \n\nWould you like to land here, or learn more about the first planet?"
+  optionOne: Learn about the first planet
+  optionTwo: "\u201CTake us to X14D5\u201D (you cannot go back)"
+  optionThree: Back
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: b210cd2049206ec45879c6bb964c615a, type: 2}
+  - {fileID: 11400000, guid: d10c3b3f6b2bf354e9fa7cda9424c3af, type: 2}
+  - {fileID: 11400000, guid: 87b99f82602711e4ebe4e1f929d7285a, type: 2}
+  visited: 7
+  checkpoint: 0

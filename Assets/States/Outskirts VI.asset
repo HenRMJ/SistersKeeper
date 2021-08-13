@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Outskirts VI
+  m_EditorClassIdentifier: 
+  storyText: "You were glad the machine didn\u2019t shut off until you turned it
+    off yourself or until the battery ran out, because who knew how many people you\u2019d
+    have to talk to. \u201DThere was a group of humans that had a sfcedsh like this
+    one.\u201D There was a bit of staticy gibberish as the voice translated from
+    where it hadn\u2019t picked up on a word properly. \L\u201DWait, you\u2019ve
+    seen other humans here? Where?\u201D The mask translates your question to the
+    child, who responds immediately. \u201CI don\u2019t know where they went, but
+    there was a female who stayed with my dfcsb for a while. I can take you to my
+    edbws and they can tell you more!!\u201D They motion you to follow."
+  optionOne: Go with the child
+  optionTwo: "\u201CHow do I know you\u2019re telling the truth?\u201D"
+  optionThree: "\u201CWhat did she look like?\u201D"
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: ee28c055eff48b4489406aa951417bf8, type: 2}
+  - {fileID: 11400000, guid: 0f6f0cef0aee11b46ba0f445f006f9b7, type: 2}
+  - {fileID: 11400000, guid: d7993b54ce7e67f4cab4ca6a4665fd46, type: 2}
+  visited: 0
+  checkpoint: 0

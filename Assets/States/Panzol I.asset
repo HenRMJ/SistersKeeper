@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Panzol I
+  m_EditorClassIdentifier: 
+  storyText: "Panzol is a plant inhabitable by a deceptive and dangerous alien race.
+    Many attempts have been made to set up communications, as well as trading offers,
+    but none have succeeded. To send their crew to Panzol would look bad on Langly
+    Corp., and could possibly tarnish their reputation. It would make sense they
+    told your sister to stay silent if they sent her and her expedition here, so
+    there\u2019s a chance she got captured if they landed.\n\nShe could be here,
+    and she could be in danger.\n\nWould you like to land here, or learn more about
+    the second planet?"
+  optionOne: Learn about the second planet
+  optionTwo: "\u201CCaptain, take us to Panzol.\u201D"
+  optionThree: Back
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: efc4e9a73b15481418636fd732716718, type: 2}
+  - {fileID: 11400000, guid: f60849b48ca7f7c47a831ea6375ddef9, type: 2}
+  - {fileID: 11400000, guid: 87b99f82602711e4ebe4e1f929d7285a, type: 2}
+  visited: 0
+  checkpoint: 0

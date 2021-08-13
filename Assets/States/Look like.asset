@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Look like
+  m_EditorClassIdentifier: 
+  storyText: "\u201CI\u2019m not sure. Short, wide, and she had black hair with dark
+    eyes. I don\u2019t remember much of what she looked like, but dbfcs would remember
+    more. I want you to meet rfre so they can tell you.\n\nThe child keeps motioning
+    you to follow them."
+  optionOne: Go with the child
+  optionTwo: "\u201CTell me where she\u2019s at.\u201D"
+  optionThree: "\u201CHow do I know you\u2019re telling the truth?\u201D"
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: ee28c055eff48b4489406aa951417bf8, type: 2}
+  - {fileID: 11400000, guid: b91f7f1fb608e93419edadf70f02da5f, type: 2}
+  - {fileID: 11400000, guid: 0f6f0cef0aee11b46ba0f445f006f9b7, type: 2}
+  visited: 0
+  checkpoint: 0

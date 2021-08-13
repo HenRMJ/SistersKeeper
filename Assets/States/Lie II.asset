@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Lie II
+  m_EditorClassIdentifier: 
+  storyText: "\u201CWhatever.\u201D The captain scoffed as he headed back over to
+    his seat in the helm, staring down the pilot as he spoke.\n\n\u201DRivers, what
+    the fuck was that? You didn\u2019t think to check the regulations before going
+    into a system?\u201D The captain scolded them in a harsh tone, which didn\u2019t
+    seen to rattle the pilot in the slightest. They were probably used to this sort
+    of treatment. \n\n\u201DSorry, Captain. If we had refueled at the last checkpoint
+    like I suggested, we wouldn\u2019t be in this mess.\u201D The pilot simply retorted.
+    You decide to..."
+  optionOne: Go back to your seat
+  optionTwo: Stay at the helm
+  optionThree: Repeat Line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 42410ceadf50d60429d0b2af4b9f12f7, type: 2}
+  - {fileID: 11400000, guid: 106a67ef66025394e8a3b479776e822f, type: 2}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

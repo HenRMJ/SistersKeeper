@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Starting State 3
+  m_EditorClassIdentifier: 
+  storyText: "You\u2019re a bit bewildered at this statement. \u201CDidn\u2019t I
+    spend-\u201D\n\nIt\u2019s the captain who cuts you off this time. \u201CYou spent
+    a lot of money on the ship and the crew, but fuel doesn\u2019t magically appear
+    in the tank, even if you spend four million credits on it. We don\u2019t have
+    enough for both, so chose one.\u201D \n\nYou let out a dejected sigh and start
+    your research before deciding where to land."
+  optionOne: Learn about the first planet
+  optionTwo: Learn about the second planet
+  optionThree: Back
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: b210cd2049206ec45879c6bb964c615a, type: 2}
+  - {fileID: 11400000, guid: efc4e9a73b15481418636fd732716718, type: 2}
+  - {fileID: 11400000, guid: 69a4fd7f5f58daf43ba55cb13dd71165, type: 2}
+  visited: 0
+  checkpoint: 0

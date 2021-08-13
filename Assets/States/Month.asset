@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Month
+  m_EditorClassIdentifier: 
+  storyText: "You look over at Hafinson as you speak. \n\n\u201DI\u2019m good with
+    a month. If we\u2019re not actually restricted, what\u2019s the harm in it?\u201D
+    Hafinson responds, causing the captain to give them a frustrated look. \n\n\u201DFine!
+    Three weeks! If you need more time than that, you can find your own way off this
+    planet.\u201D "
+  optionOne: back to beginning
+  optionTwo: needs option
+  optionThree: needs option
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: a0b87ead465bffa47add4a7775992858, type: 2}
+  visited: 0
+  checkpoint: 0

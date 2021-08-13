@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Fuck
+  m_EditorClassIdentifier: 
+  storyText: "You raise your middle finger, thinking back to all the things he said
+    earlier. The action was probably childish, but you knew he wouldn\u2019t be able
+    to here you. And besides, he was acting a bit like a child earlier, heprobably
+    deserved this.\nHis pained screams morph into screams of anger as he starts dragging
+    himself towards you with what energy he still had left, leaving a trail of blood
+    in his wake. Mere inches from you, he collapses onto the floor, limp and lifeless
+    from the blood loss. \nHis determination even moments from death was frightening,
+    especially considering the ongoing situation."
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 7f85f57345ff4dc459479265ff81c458, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

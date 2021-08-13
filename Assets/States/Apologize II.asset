@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Apologize II
+  m_EditorClassIdentifier: 
+  storyText: "\u201CShut the fuck up, you piece of shit!! You\u2019re endangering
+    mine and my crew\u2019s livelihood! When we land and refuel, we\u2019re heading
+    out of this system.\u201D \n\n\u201DI didn\u2019t come all this way just to turn
+    around right after we arrive!!\u201D You explain, practically begging the captain
+    to change his mind.\n\n\u201DI don\u2019t give a fuck. Four million credits isn\u2019t
+    worth losing my wings!\u201D The captain says with a cold tone, his grip on your
+    pinned wrists tightening. His nails are digging into your skin. You need to react
+    quickly."
+  optionOne: back to beginning
+  optionTwo: needs options
+  optionThree: needs options
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: a0b87ead465bffa47add4a7775992858, type: 2}
+  visited: 0
+  checkpoint: 0

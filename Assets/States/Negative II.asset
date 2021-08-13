@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Negative II
+  m_EditorClassIdentifier: 
+  storyText: "\u201CHafinson! Rivers!\u201D The captain half shouted to grab the
+    attention of both the engineer and the pilot, who look over at the call. \n\n\u201DYes,
+    sir?\u201D They both respond in unison, almost like it was planned. \n\n\u201DWe\u2019ve
+    been flying for a while. What do you say we take a week of shore leave before
+    setting off again?\u201D The captain\u2019s mood seemed to have improved as he
+    asked, waiting for anyone\u2019s input. \n\nWhat\u2019s your opinion on the matter?"
+  optionOne: Stay quiet
+  optionTwo: "\u201CI need more than a week to find my sister!\u201D"
+  optionThree: "\u201CYeah, I\u2019m fine with that\u201D"
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: bf915ecd3bbf64d4a87477056069d4be, type: 2}
+  - {fileID: 11400000, guid: 5e1f6ca60147e654199562a57c96636d, type: 2}
+  - {fileID: 11400000, guid: b90f83735aadf954989466a5426334f1, type: 2}
+  visited: 0
+  checkpoint: 0

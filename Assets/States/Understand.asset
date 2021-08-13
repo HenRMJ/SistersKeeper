@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Understand
+  m_EditorClassIdentifier: 
+  storyText: "\u201CYeah. He\u2019s also a bit on edge with you being in cryo for
+    so long. I know the captain would much rather pay extra for food and water than
+    have some stranger sleeping in back for months.\u201D The engineer leaned against
+    the wall as they spoke.\n\n\u201DHuh....really? Why?\u201D You asked, a bit confused
+    at the logic. \n\n\u201DIt\u2019s funny, but he says it\u2019s bad for morale.\u201D
+    The engineer shrugs as they push off the way and continue their way towards the
+    engine room."
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Back
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 7fb5709a9c1894d488fee483698eaa38, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 42410ceadf50d60429d0b2af4b9f12f7, type: 2}
+  visited: 0
+  checkpoint: 0

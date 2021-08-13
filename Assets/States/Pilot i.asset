@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Pilot i
+  m_EditorClassIdentifier: 
+  storyText: "The ship\u2019s shaking so hard that making it to the captan would
+    probably be impossible, so you unstrap yourself and make your way over to the
+    pilot. \n\n\u201DRivers, there\u2019s something wrong with the engine!! One of
+    them was blinking red on the panel!!\u201D You raise your voice as much as you
+    possibly can to be heard over the roaring of the air. \n\n\u201DWell, no shit,
+    Sherlock!!\u201D Rivers yells back at the top of his lungs, glancing at you as
+    he spoke so you could read his lips at the least before turning back to the panel
+    in front of him. "
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: a6f9bd890fb56dd4e8df3cf7c661a068, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

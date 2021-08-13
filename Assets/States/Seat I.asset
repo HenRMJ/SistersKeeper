@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Seat I
+  m_EditorClassIdentifier: 
+  storyText: "The sound of muffled talking catches your ear as you head back to your
+    seat. You don\u2019t really bother to listen as you sit down and strap yourself
+    back in. \n\nA moment passes before the engineer walks past and stops in front
+    of you. \n\n\u201DHey, listen. I know the captain can be a bit rough at times,
+    but he just wants to ensure everything\u2019s kosher, ya know?\u201D \n\nHow
+    will you respond?"
+  optionOne: "\u201CYeah, I understand.\u201D"
+  optionTwo: "\u201CThanks, Hafinson.\u201D"
+  optionThree: "\u201CHe\u2019s still an asshole....\u201D"
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 94195960489963849bcb39d1a2431c7d, type: 2}
+  - {fileID: 11400000, guid: 617bd689cfa5fe244b44fb41453ad6b4, type: 2}
+  - {fileID: 11400000, guid: f3fca7ee16b5beb488166b21dc030677, type: 2}
+  visited: 0
+  checkpoint: 0

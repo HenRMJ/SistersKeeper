@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: X14D5 IV
+  m_EditorClassIdentifier: 
+  storyText: "You stumble back to your seat the best you can, collapsing in it and
+    strapping in. \nThere\u2019s a panel in the other room you have a clear view
+    of through the door, showing a layout of the ship\u2019s mechanics. One of the
+    engines is blinking red, the ship is starting to rumble more, and it\u2019s getting
+    hotter by the second. It\u2019s looking incredibly bad and the air rushing past
+    the ship is so loud, it\u2019s drowning out any other noise.\n You\u2019re well
+    aware the captain\u2019s at the engine already, so hopefully he\u2019ll be able
+    to fix the problem quickly, but the pilot is practically right beside you. You..."
+  optionOne: Run to captain
+  optionTwo: Tell pilot
+  optionThree: Stay seated
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 8d0c9253e6433d14881c28372f16afc2, type: 2}
+  - {fileID: 11400000, guid: e5b7d5ca80801b649b236ce84f583a29, type: 2}
+  - {fileID: 11400000, guid: a55843e9bc4b369409d14aa70b10e2cd, type: 2}
+  visited: 0
+  checkpoint: 0

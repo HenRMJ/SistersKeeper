@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Where shes
+  m_EditorClassIdentifier: 
+  storyText: "\u201Cdhfcb came and took her! I think they wanted to dfvn her for
+    currency. Humans don\u2019t really come to this planet, but when they do, cfdes
+    always take them and dfcs. Sometimes, the human dfcd doesn\u2019t pay and human
+    dfcbs.\u201D The child answers, continuing to motion you to follow."
+  optionOne: Go with the child
+  optionTwo: "\u201CIs she in danger?\u201D / needs point"
+  optionThree: "\u201CWhat did she look like?\u201D / needs point"
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: ee28c055eff48b4489406aa951417bf8, type: 2}
+  visited: 0
+  checkpoint: 0

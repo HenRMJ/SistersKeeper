@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: X14D5 III
+  m_EditorClassIdentifier: 
+  storyText: "Hafinson nods in affirmation, standing up quickly right before a large
+    explosion shakes the ship. As a result, Hafinson is throw into the wall with
+    a significant amount of force, knocking him unconscious on the floor. \n\n\u201DFuck!
+    Fine, I\u2019ll do it!\u201D The captain stumbles away with a great bit of determination
+    and the help of rails on the wall to keep him from ending up like Hafinson. \n\n\u201DWhat
+    should I do?\u201D You ask the pilot, eager to help if you can. The pilot shakes
+    their head. \u201CGo sit down. The captain should be able to handle it.\u201D"
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Back
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: d10c3b3f6b2bf354e9fa7cda9424c3af, type: 2}
+  visited: 0
+  checkpoint: 0

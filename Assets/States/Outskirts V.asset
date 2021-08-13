@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Outskirts V
+  m_EditorClassIdentifier: 
+  storyText: "The voice starts up a moment after. \u201CCallibration in progress.
+    Translations may not be one hundred precent accurate with this process, and may
+    not fully cover the language you are trying to translate. Species with voices
+    lower than ten hertz or higher than eighty kilohertz may not be able to translate.\u201D
+    The voice explains as the child stares at you without blinking, waiting for it
+    to finish. Did this species even have eyelids? You suppose that isn\u2019t really
+    important, but the child hasn\u2019t blinked once the entire time you\u2019ve
+    been with them. Finally, the mask gives two low pitched noises, and the child
+    responds. The robotic voice of the translator begins, dull lights on the front
+    of the mask picking up the wave length of the child\u2019s voice. "
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 2a69f3776534ddd409a267a8aeb9d39a, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

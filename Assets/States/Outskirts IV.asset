@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Outskirts IV
+  m_EditorClassIdentifier: 
+  storyText: "A robotic voice comes from the earbuds. \u201CThe device is now on.
+    Pick an option from the display and speak it aloud to begin.\u201D The callibration
+    device projects a bright blue holographic screen in front of you listing all
+    the options. \u201CCallibrate.\u201D The screen disappears and the voice starts
+    again. \u201CThe callibration process can take up to thirty minutes. Make sure
+    you have a native speaker with you. When you are ready, signal the native speaker
+    to begin.\u201D You give the child a thumbs up, and the hologram switches on
+    again as they talk. A holograph of a sun appears first before the child makes
+    a noise, causing the image to quickly shift to one of a moon. This process continues
+    a while with various images before the machine suddenly stops."
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: a3397b3691ba28343bb8b54fb2492ff4, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

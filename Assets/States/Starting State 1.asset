@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Starting State 1
+  m_EditorClassIdentifier: 
+  storyText: "It\u2019s been a long four months of space travel, and you\u2019ve
+    finally arrived at the Krestar System. As much as you were hoping to hear word
+    about your sister, she still remains M.I.A, and no updates have been received.
+    \n\nThe last conversation you can remember having with her was about how excited
+    she was to lead her first expedition and how strange she found it that they had
+    told her to keep it on the down low. She couldn\u2019t even tell you where she
+    was going, but upon her departure, she let it slip that their destination was
+    a planet located around the astroid belt in the center of the Krestar System. "
+  optionOne: Continue
+  optionTwo: Back to intro
+  optionThree: Back to instructions
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 69a4fd7f5f58daf43ba55cb13dd71165, type: 2}
+  - {fileID: 11400000, guid: c1d08bae823b6e942ae8434c5012aa4d, type: 2}
+  - {fileID: 11400000, guid: a0b87ead465bffa47add4a7775992858, type: 2}
+  visited: 0
+  checkpoint: 0

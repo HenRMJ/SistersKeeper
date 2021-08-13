@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Outskirts II
+  m_EditorClassIdentifier: 
+  storyText: "After you reach the buildings, you duck around the corner of one to
+    hide. You note that this area definitely doesn\u2019t look as high end as the
+    rest of the city as you watch the locals go about their business. You didn\u2019t
+    do much research on the species that inhabit the planet, but from afar, they
+    look exactly like taller, slimmer humans.\L\LYou hear footsteps behind you and
+    turn around in an internal panic, finding yourself face to face with a local.
+    You know you most likely aren\u2019t supposed to be here, and the wrong person
+    finding you could end in trouble. You draw in a deep breath to calm yourself
+    and look them over."
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: f955374ea8915fe4b9d20a98592a601e, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

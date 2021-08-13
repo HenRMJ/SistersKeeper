@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: City II
+  m_EditorClassIdentifier: 
+  storyText: "You make it to the city, and note that the locals fall into the uncanny
+    valley. Mostly human looking, but definitely off enough to not be. Their skin
+    was courser, almost scaly, but not to the point of a reptiles. They\u2019re taller
+    than the average human, but also slimmer, with no nose and protrusions on either
+    side of their neck, almost like a bearded dragon, or maybe fish fins? You can\u2019t
+    help but think back to how older media always protrayed alien life and compare
+    them to what you were seeing. It\u2019s strange how little difference there is
+    between humans and other highly evolved life forms in reality. Your sister had
+    always loved those movies...the idealized depiction of space exploration was
+    probably the reason she became a surveyer."
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 6e45c2a0146f64340b2d065fb371fd77, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

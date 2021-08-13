@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Instructions 4b
+  m_EditorClassIdentifier: 
+  storyText: "Well... just don\u2019t click a button then... I mean it\u2019s not
+    timed or anything so you can just... like wait...\n\nOh, by the way clicking
+    \u201CQ\u201D quits the game. Don\u2019t worry, I know you like to click random
+    buttons so the game saves automatically. Also achievements will unlock as you
+    progress through the game so check up on those from time to time. Also, you can
+    turn off and on the voice over by click on the little speech bubble and sound
+    effects by clicking on the speaker icon.\n\nAnyways press 1 whenever you\u2019re
+    ready... you know to hear about the story"
+  optionOne: "\u201COk now I\u2019m ready\u201D"
+  optionTwo: Repeat voice over
+  optionThree: Back
+  voice: {fileID: 8300000, guid: 1a37eaa25a6c41e4eb6735139503f371, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: c1d08bae823b6e942ae8434c5012aa4d, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: a5052e3af34da8c42b60a098fa65e846, type: 2}
+  visited: 1
+  checkpoint: 0

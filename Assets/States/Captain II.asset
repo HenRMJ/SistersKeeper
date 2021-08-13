@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Captain II
+  m_EditorClassIdentifier: 
+  storyText: "The force of the blast knocks you off your feet and back into the hallway,
+    thick smoke trickling out the doorway. A loud scream breaks through the wall
+    of smoke, and you try your best to stand. You cast a disoriented glance back
+    to the captain, squinting to see him through the smoke. He was laying on the
+    ground, his face is covered in shrapnel, small pieces having embedded themselves
+    in his skin, small trails of blood oozing from the cuts. The most notable thing,
+    though, was his left arm was almost entirely missing and blood was pouring from
+    the stump left behind, small scraps of flesh and bone littering the ground nearby.
+    \u201CHelp me!\u201D The captain sounded desperate and in pain, looking up at
+    you with a pleading expression."
+  optionOne: Save yourself
+  optionTwo: '"Fuck you"'
+  optionThree: Help the captain
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 0fbbbd6460722d042a44f900db1859ab, type: 2}
+  - {fileID: 11400000, guid: fe8bb81c39e65f545891a4529a7d5ce6, type: 2}
+  - {fileID: 11400000, guid: 6a3ad49049f63fc48b04725b356bba3b, type: 2}
+  visited: 0
+  checkpoint: 0

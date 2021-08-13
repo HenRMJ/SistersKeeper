@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Negative V
+  m_EditorClassIdentifier: 
+  storyText: "\u201CGreat, I didn\u2019t want you back on my ship anyway. Now get
+    the fuck off.\u201D The captain is fuming at this point, and Hafinson gives you
+    a look that says you better listen. You cross your arms with a huff and go to
+    gather your belongs in a bit of a rush. You have unlimited time to find your
+    sister, but you also have no way off the planet. You suppose that\u2019s a bridge
+    you\u2019ll have to cross later. \n\nAfter stepping off the ship, you see the
+    outline of the metropolis close by. Lying to the captain got you this close to
+    a city, at least, but it\u2019s completely retricted to all humans. What will
+    you do?"
+  optionOne: Be safe and travel on the outskirts of the city.
+  optionTwo: Go straight into the city.
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: f87bad5644211ec47977ed46681ed67e, type: 2}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

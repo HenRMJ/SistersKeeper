@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Captain I
+  m_EditorClassIdentifier: 
+  storyText: "You decide that the captain would most likely know more about the ship
+    then anyone else, unbuckling your seat. Nanoseconds later, another blast makes
+    its way from the engine room. You\u2019re running on pure adrenaline and you
+    swear you can hear your heart from how much it\u2019s pounding. You rush to the
+    engine room, immediately starting to explain. \n\n\u201DCaptain, something\u2019s
+    blinking on the panel!! I\u2019m pretty sure it\u2019s another engine!\u201D
+    You try your best to yell over the thunderous sound. \u201CYou think I don\u2019t-?!\u201D
+    The captain starts to respond, but is cut off by another loud explosion from
+    right behind him. "
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: c263966bb84c6844fa1686501244c500, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

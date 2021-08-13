@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Let go
+  m_EditorClassIdentifier: 
+  storyText: "You let go nervously and use your body to center yourself the best
+    you can. \n\n\u201DFuck, fuck, FUCK!!\u201D You try to clear your mind as you
+    look down, taking in your surroundings. \n\nThere\u2019s a large pond surrounded
+    by vegetation directly below you, and you have to make up your mind quickly about
+    where you\u2019re going to land."
+  optionOne: Water
+  optionTwo: Vegetation
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 5a8262caae180b14497bac4eab874ef9, type: 2}
+  - {fileID: 11400000, guid: 79f60cbb6e50e694ea5cf2b44053cbb7, type: 2}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

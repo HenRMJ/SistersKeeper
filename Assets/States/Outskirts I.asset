@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Outskirts I
+  m_EditorClassIdentifier: 
+  storyText: "Finding your sister is the most important thing at this moment, but
+    if something happens to you before you find her, she most likely would never
+    be found. Not that it would really matter by that point...you decide it safer
+    to stay on the outskirts of town, where you spot some smaller buildings that
+    were most likely living spaces of some sort a bit away.\n\r\nCommunicating with
+    the locals is going to be a challenge, even with your Universal Translator. You\u2019re
+    more than certain this planet isn\u2019t in the database, but you have hope that
+    someone will be willing and able to callibrate it for you and add it in."
+  optionOne: Continue
+  optionTwo: Repeat line
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 2d6e2912e097a384db3268e36c6a28ea, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0

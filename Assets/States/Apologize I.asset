@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Apologize I
+  m_EditorClassIdentifier: 
+  storyText: "\u201CSorry?! What in the fuck am I supposed to do with a sorry?!\u201D
+    The captain snaps, turning back to the crew to start barking orders. \u201CRivers,
+    find the closest body of water and land us there! And you! Hafinson! Go set up
+    the hydrofuel converter! In case you\u2019ve forgotten, it\u2019s in the engine
+    room! Now go!\u201D\n\nHe turns back to you with a dagger like gaze and shoves
+    you backwards, pinning you to a wall. \n\nHow will you respond?"
+  optionOne: "\u201CWhat the fuck?!\u201D"
+  optionTwo: "\u201CI said I\u2019m sorry!\u201D"
+  optionThree: "\u201CI need to find my sister!\u201D"
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: c2169e84be20565439f5c27a0bd7c5b8, type: 2}
+  - {fileID: 11400000, guid: c2169e84be20565439f5c27a0bd7c5b8, type: 2}
+  - {fileID: 11400000, guid: c2169e84be20565439f5c27a0bd7c5b8, type: 2}
+  visited: 0
+  checkpoint: 0

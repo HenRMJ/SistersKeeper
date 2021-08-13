@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Go with child
+  m_EditorClassIdentifier: 
+  storyText: "You follow the child through the alleys behind the buildings before
+    you reach an entrance on a building that looked a bit newer. The door was cracked
+    open just a bit, probably from this child sneaking out. They open it the rest
+    of the way and motions you to enter. You hesitantly step inside and see another
+    local laying across a futuristic looking couch and watching something on a large
+    screen. The child enters behind you. \u201CHey, djfbe, I found another human!
+    I think they\u2019re looking for the female we rfdsf!\u201D The local looked
+    up at you, standing up and quickly pulling the child behind them. \u201CWho are
+    you?\u201D The adult demanded, towering over you. They were at least three feet
+    taller than the child, and looked untrusting."
+  optionOne: "\u201CI\u2019m here looking for my sister.\u201D / back to beginning"
+  optionTwo: "\u201CI need to find a way off this planet.\u201D"
+  optionThree: "\u201CI\u2019m here to kill you.\u201D"
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: a0b87ead465bffa47add4a7775992858, type: 2}
+  visited: 0
+  checkpoint: 0

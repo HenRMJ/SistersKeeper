@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a762c83226fb3ae4282ce8831b11184d, type: 3}
+  m_Name: Stay I
+  m_EditorClassIdentifier: 
+  storyText: "\u201CHafinson!\u201D The captain snaps to the engineer close by, gaining
+    their attention. \u201CWe\u2019re gonna need the hydrofuel convertor up and running
+    when we land. Go set that up, Engine Room by Bay 3!\u201D The orders were brief,
+    but got the point across. \n\n\u201DYes sir!\u201D The engineer left to set up
+    the machine. The captain sighs in exhaustion before noticing you. They sit up
+    a bit more, turning to lock eyes\n\n\u201DWhat the fuck are you still doing here?
+    Go sit down!\u201D He sounds like he isn\u2019t going to deal with anymore bullshit.
+    Maybe you should go sit down..."
+  optionOne: Go back to your seat
+  optionTwo: "\u201CI\u2019m staying right here, thanks.\u201D"
+  optionThree: Repeat line
+  voice: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 42410ceadf50d60429d0b2af4b9f12f7, type: 2}
+  - {fileID: 11400000, guid: 888121b6c70b3894e840bb63a8c2d400, type: 2}
+  - {fileID: 11400000}
+  visited: 0
+  checkpoint: 0
