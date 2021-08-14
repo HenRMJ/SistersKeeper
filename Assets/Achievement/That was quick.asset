@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievementName: That was quick
   description: Completed the shortest story path
+  varState: {fileID: 11400000, guid: 9a22d68ab382ad74c9e3aefff329de6d, type: 2}
   icon: {fileID: 21300000, guid: 9707992211f1ce947be03cd2bbc5f60b, type: 3}

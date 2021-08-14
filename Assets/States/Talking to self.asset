@@ -23,8 +23,8 @@ MonoBehaviour:
   optionThree: Repeat line
   voice: {fileID: 0}
   nextStates:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 48ae64348ca70024997e0ba5fff22127, type: 2}
+  - {fileID: 11400000, guid: 24eea07eafa07ff45901554228e1b631, type: 2}
   - {fileID: 11400000}
   visited: 0
   checkpoint: 0
