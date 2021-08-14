@@ -19,13 +19,13 @@ MonoBehaviour:
     to push buttons that looked like they were doing it at random. \n\n\u201DWe have
     to close out the bay or the damage could extend to the rest of the ship!!\u201D
     Rivers turns back to you, looking for your input. How will you respond?"
-  optionOne: "\u201CBut the captain is in the engine bay!\u201D"
+  optionOne: "\u201CBut the captain is in the engine bay!\u201D / back to beginning"
   optionTwo: "\u201CClose the bay\u201D"
   optionThree: Repeat line
   voice: {fileID: 0}
   nextStates:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: a0b87ead465bffa47add4a7775992858, type: 2}
   - {fileID: 0}
   - {fileID: 11400000}
-  visited: 0
+  visited: 1
   checkpoint: 0

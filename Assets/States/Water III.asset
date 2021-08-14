@@ -20,12 +20,12 @@ MonoBehaviour:
     towards the ship and can\u2019t help but wonder about what happened to the rest
     of the crew. You also see a large hill nearby that piques your curiosity. \n\nWhere
     do you decide to go?"
-  optionOne: Head to the wreckage
+  optionOne: Head to the wreckage / back to beginning
   optionTwo: See if you can find signs of... anything on top of the hill
   optionThree: Repeat line
   voice: {fileID: 0}
   nextStates:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: a0b87ead465bffa47add4a7775992858, type: 2}
   - {fileID: 0}
   - {fileID: 11400000}
   visited: 0
