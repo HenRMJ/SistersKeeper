@@ -8,8 +8,14 @@ public class Achievement : ScriptableObject
 {
     public string achievementName;
     public string description;
+    public State varState;
 
     public Sprite icon;
+
+    public State GetVarState()
+    {
+        return varState;
+    }
 
     public string GetAchievementName()
     {

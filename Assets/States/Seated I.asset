@@ -23,6 +23,9 @@ MonoBehaviour:
   optionTwo: Go to the pilot
   optionThree: Run to the captain
   voice: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 11bbed8f983ac6a4fa5f09bc056d39d9, type: 2}
+  - {fileID: 11400000, guid: 4a8657f1560021d4b8f99afacfa063dc, type: 2}
+  - {fileID: 11400000, guid: 4a8657f1560021d4b8f99afacfa063dc, type: 2}
   visited: 0
   checkpoint: 0

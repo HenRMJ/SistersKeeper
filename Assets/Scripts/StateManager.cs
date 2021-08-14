@@ -25,8 +25,8 @@ public class StateManager : MonoBehaviour
 
     private void Start()
     {
-        checkStates[0].visited = PlayerPrefs.GetInt("ach01");
-        checkStates[1].visited = PlayerPrefs.GetInt("ach02");
+        allAchievements[0].GetVarState().visited = PlayerPrefs.GetInt("ach01");
+        allAchievements[1].GetVarState().visited = PlayerPrefs.GetInt("ach02");
     }
 
     private void CheckStates(int i)
@@ -49,8 +49,8 @@ public class StateManager : MonoBehaviour
         bool finishedGame = true;
         bool finishedGametwice = true;
 
-        PlayerPrefs.SetInt("ach01", checkStates[0].visited);
-        PlayerPrefs.SetInt("ach02", checkStates[1].visited);
+        PlayerPrefs.SetInt("ach01", allAchievements[0].GetVarState().visited);
+        PlayerPrefs.SetInt("ach02", allAchievements[1].GetVarState().visited);
         
 
         for (int i = 0; i < allAchievements.Length; i++)
