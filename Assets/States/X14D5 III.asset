@@ -24,8 +24,8 @@ MonoBehaviour:
   optionThree: Back
   voice: {fileID: 0}
   nextStates:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: a2f4e77163898a148aff9bfe8ea90573, type: 2}
   - {fileID: 11400000}
   - {fileID: 11400000, guid: d10c3b3f6b2bf354e9fa7cda9424c3af, type: 2}
-  visited: 0
+  visited: 1
   checkpoint: 0

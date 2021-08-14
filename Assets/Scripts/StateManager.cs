@@ -31,7 +31,7 @@ public class StateManager : MonoBehaviour
 
     private void CheckStates(int i)
     {
-        if (checkStates[i].visited > 0)
+        if (allAchievements[0].GetVarState().visited > 0)
         {
             achTitle[i].text = allAchievements[i].GetAchievementName();
             achDescrip[i].text = allAchievements[i].GetAchievementDescription();
